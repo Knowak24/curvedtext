@@ -1,5 +1,19 @@
 /* My Styles */
+@font-face {
+    font-family: 'Array-Bold';
+    src: url('Array-Bold.woff2') format('woff2'),
+         url('Array-Bold.woff') format('woff'),
+         url('fonts/Array-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;}
 
 body {
     background: lightgray;
+}
+ 
+p {
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkred;
 }
